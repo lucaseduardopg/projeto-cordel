@@ -47,8 +47,8 @@ a:hover {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte2);
@@ -68,8 +68,9 @@ section.imagem {
     background-color: #535353;
     color: #ffffff;
     box-shadow: inset 6px 6px 13px #000000a1;
-    background-position: right top;
+    background-position: right center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
